@@ -1,0 +1,33 @@
+---
+title: "D&D Assignment X"
+author: "Students Names"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+
+<!-- This part is a text comment that will not show up in the final Word document.  The following chunk of R code sets up R markdown so that the code will be displayed in the final word document alongside its output. You should always leave it as the first chunk of code. -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Markdown (Top Level Heading)
+
+This is an R Markdown document for D&D Assignments.  R markdown is a simple way of creating nice looking MS Word documents that contain "chunks" of R code alongside their associated output. See the handy reference sheet for R markdown in RStudio at Help > Markdown Quick Reference.
+
+## Running code (Second Level Heading)
+You can run your code one chunk at a time by clicking the play button at the top right of each chunk.  You can run all chunks by clicking the Run button, and then "Run All" (shortcut: Ctrl+Alt+R).
+
+## Creating your Word document
+Click the **Knit** button to create a Word document that includes both the text content and also the output of any embedded R code chunks within the document. 
+
+## Embedding R code
+You can embed an R code chunk in two ways.  (1) you can create a chunk manually by either typing out or copying and pasting the chunk below. (2) You can hit the green button at the top right of this document that has a C (for "code") on it and a plus sign, then hit R.
+
+```{r}
+
+# [Your code goes here -- this is just an R comment so it does nothing.]
+
+```
+
