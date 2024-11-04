@@ -6,11 +6,7 @@ output: word_document
 ---
 
 
-<!-- This is a template R markdown file for D&D Assignments.  
-
-This part is a text comment that will not show up in the final Word document.  
-
-The first chunk of R code below sets up R markdown so that the code will be displayed in the final word document alongside its output.  Feel free to delete this comment but do not delete the first chunk of R code. -->
+<!-- This is a template R markdown file for D&D Assignments. -->
 
 <!-- DO NOT DELETE THIS CHUNK OF CODE -->
 ```{r setup, include=FALSE}
